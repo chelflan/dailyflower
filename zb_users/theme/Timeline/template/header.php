@@ -3,6 +3,7 @@
 <html lang="{$lang['lang_bcp47']}">
 <head>
 	<meta charset="utf-8">
+	<meta name="referrer" content="never">
 	<meta http-equiv="Content-Language" content="{$language}">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 {if $type=='article'}
