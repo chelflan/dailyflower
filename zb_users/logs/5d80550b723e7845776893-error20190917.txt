@@ -1,0 +1,8 @@
+[2019-09-17 18:12:52 .98411400 +08:00]
+array (
+  0 => 'Exception',
+  1 => '没有权限',
+  2 => 0,
+  3 => 'C:\\phpstudy_pro\\WWW\\blogtest\\zb_system\\function\\lib\\zblogphp.php',
+  4 => 3071,
+)
