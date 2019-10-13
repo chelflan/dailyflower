@@ -3,6 +3,7 @@
 <html lang="<?php  echo $lang['lang_bcp47'];  ?>">
 <head>
 	<meta charset="utf-8">
+	<meta name="referrer" content="never">
 	<meta http-equiv="Content-Language" content="<?php  echo $language;  ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php if ($type=='article') { ?>
