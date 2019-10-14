@@ -3,7 +3,10 @@
 <html lang="{$lang['lang_bcp47']}">
 <head>
 	<meta charset="utf-8">
+	<!--微信图片微信图片不显示de -->
 	<meta name="referrer" content="never">
+    <!--百度站长 -->
+	<meta name="baidu-site-verification" content="BR4OJUVTh4" />
 	<meta http-equiv="Content-Language" content="{$language}">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 {if $type=='article'}
@@ -43,6 +46,24 @@ body,.mainlist li .readmore,.relist h3,.pages a:hover{background-color:#{$zbp->C
 .content{box-shadow:#{$zbp->Config('Timeline')->mcolor} 0 1px 10px;}
 .plist figure p a{color:#{$zbp->Config('Timeline')->mcolor};}
 </style>
+<script>
+(function(){
+    // 360
+var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+// bai'du百度 
+ var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 </head>
 <body>
 <header>
