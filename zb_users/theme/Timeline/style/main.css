@@ -82,7 +82,7 @@ article{background:rgba(255,255,255,.15);overflow:hidden;}
 .mainlist li .readmore:hover{opacity:1}
 /* Detail */
 .abox{width:90%;margin:30px auto;overflow:hidden;line-height:22px;}
-.atitle{font-size:24px;margin-bottom:30px;}
+.atitle{font-size:24px;margin-bottom:20px;line-height: 28px;}
 .atitle span{float:right;color:#fff;font-size:14px;font-weight:normal;}
 .abox p{margin:10px 0}
 .abox p img{max-width:100%}
